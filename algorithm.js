@@ -5,7 +5,7 @@ function getDayName(day) {
 
     if (day > 0 && day < 8) {
         let days = ['пон', 'вт', 'ср', 'чт', 'пт', 'сб', 'вс']
-        return days;
+        return days[day];
     } else {
         return 'неверные данные на входе';
     }
