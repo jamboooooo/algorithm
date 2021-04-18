@@ -1,5 +1,5 @@
 function getDayName(day) {
-    return day;
+    return typeof day !== 'number' && 'error'
 }
 
 console.log(getDayName);
