@@ -1,5 +1,5 @@
-function getDayName() {
-    return 'Проверка связи'
+function getDayName(day) {
+    return day;
 }
 
 console.log(getDayName);
